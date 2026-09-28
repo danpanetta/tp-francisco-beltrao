@@ -1,0 +1,1 @@
+var json_TerminalUrbano_49 = {"type":"FeatureCollection","name":"TerminalUrbano_49","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","id":"1"},"geometry":{"type":"Point","coordinates":[-53.048116325441221,-26.080566046657793]}}]}
