@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_SistemaProposto_35 = function(feature, resolution){
+var style_LinhaCircularNorteAH_35 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -23,7 +23,7 @@ var style_SistemaProposto_35 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(232,113,141,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
+        stroke: new ol.style.Stroke({color: 'rgba(152,125,183,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)

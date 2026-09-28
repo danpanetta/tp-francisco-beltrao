@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_TerminalUrbano_49 = function(feature, resolution){
+var style_TerminalUrbano_48 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

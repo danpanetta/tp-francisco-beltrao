@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_LinhaCircularUniversitriaH_39 = function(feature, resolution){
+var style_LinhaCircularUniversitriaH_38 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

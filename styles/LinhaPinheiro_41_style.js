@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_LinhaCircularUniversitriaAH_38 = function(feature, resolution){
+var style_LinhaPinheiro_41 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -23,7 +23,7 @@ var style_LinhaCircularUniversitriaAH_38 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(133,182,111,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
+        stroke: new ol.style.Stroke({color: 'rgba(145,82,45,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
