@@ -23,7 +23,7 @@ var style_Linha11Variao04Frequncia00viagens_21 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,75,255,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 0.76}),
+        stroke: new ol.style.Stroke({color: 'rgba(72,123,182,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 0.0}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)

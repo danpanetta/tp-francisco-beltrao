@@ -521,203 +521,233 @@ var lyr_Linha01Variao03Frequncia01viagem_34 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/Linha01Variao03Frequncia01viagem_34.png" /> Linha 01 - Variação 03 - Frequência 01 viagem'
             });
-var format_LinhaCircularNorteAH_35 = new ol.format.GeoJSON();
-var features_LinhaCircularNorteAH_35 = format_LinhaCircularNorteAH_35.readFeatures(json_LinhaCircularNorteAH_35, 
+var format_SistemaProposto_35 = new ol.format.GeoJSON();
+var features_SistemaProposto_35 = format_SistemaProposto_35.readFeatures(json_SistemaProposto_35, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaCircularNorteAH_35 = new ol.source.Vector({
+var jsonSource_SistemaProposto_35 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaCircularNorteAH_35.addFeatures(features_LinhaCircularNorteAH_35);
-var lyr_LinhaCircularNorteAH_35 = new ol.layer.Vector({
+jsonSource_SistemaProposto_35.addFeatures(features_SistemaProposto_35);
+var lyr_SistemaProposto_35 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaCircularNorteAH_35, 
-                style: style_LinhaCircularNorteAH_35,
+                source:jsonSource_SistemaProposto_35, 
+                style: style_SistemaProposto_35,
+                popuplayertitle: 'Sistema Proposto',
+                interactive: true,
+                title: '<img src="styles/legend/SistemaProposto_35.png" /> Sistema Proposto'
+            });
+var format_LinhaCircularNorteAH_36 = new ol.format.GeoJSON();
+var features_LinhaCircularNorteAH_36 = format_LinhaCircularNorteAH_36.readFeatures(json_LinhaCircularNorteAH_36, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_LinhaCircularNorteAH_36 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_LinhaCircularNorteAH_36.addFeatures(features_LinhaCircularNorteAH_36);
+var lyr_LinhaCircularNorteAH_36 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_LinhaCircularNorteAH_36, 
+                style: style_LinhaCircularNorteAH_36,
                 popuplayertitle: 'Linha Circular-Norte AH',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaCircularNorteAH_35.png" /> Linha Circular-Norte AH'
+                title: '<img src="styles/legend/LinhaCircularNorteAH_36.png" /> Linha Circular-Norte AH'
             });
-var format_LinhaCircularNorteH_36 = new ol.format.GeoJSON();
-var features_LinhaCircularNorteH_36 = format_LinhaCircularNorteH_36.readFeatures(json_LinhaCircularNorteH_36, 
+var format_LinhaCircularNorteH_37 = new ol.format.GeoJSON();
+var features_LinhaCircularNorteH_37 = format_LinhaCircularNorteH_37.readFeatures(json_LinhaCircularNorteH_37, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaCircularNorteH_36 = new ol.source.Vector({
+var jsonSource_LinhaCircularNorteH_37 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaCircularNorteH_36.addFeatures(features_LinhaCircularNorteH_36);
-var lyr_LinhaCircularNorteH_36 = new ol.layer.Vector({
+jsonSource_LinhaCircularNorteH_37.addFeatures(features_LinhaCircularNorteH_37);
+var lyr_LinhaCircularNorteH_37 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaCircularNorteH_36, 
-                style: style_LinhaCircularNorteH_36,
+                source:jsonSource_LinhaCircularNorteH_37, 
+                style: style_LinhaCircularNorteH_37,
                 popuplayertitle: 'Linha Circular-Norte H',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaCircularNorteH_36.png" /> Linha Circular-Norte H'
+                title: '<img src="styles/legend/LinhaCircularNorteH_37.png" /> Linha Circular-Norte H'
             });
-var format_LinhaCircularUniversitriaAH_37 = new ol.format.GeoJSON();
-var features_LinhaCircularUniversitriaAH_37 = format_LinhaCircularUniversitriaAH_37.readFeatures(json_LinhaCircularUniversitriaAH_37, 
+var format_LinhaCircularUniversitriaAH_38 = new ol.format.GeoJSON();
+var features_LinhaCircularUniversitriaAH_38 = format_LinhaCircularUniversitriaAH_38.readFeatures(json_LinhaCircularUniversitriaAH_38, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaCircularUniversitriaAH_37 = new ol.source.Vector({
+var jsonSource_LinhaCircularUniversitriaAH_38 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaCircularUniversitriaAH_37.addFeatures(features_LinhaCircularUniversitriaAH_37);
-var lyr_LinhaCircularUniversitriaAH_37 = new ol.layer.Vector({
+jsonSource_LinhaCircularUniversitriaAH_38.addFeatures(features_LinhaCircularUniversitriaAH_38);
+var lyr_LinhaCircularUniversitriaAH_38 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaCircularUniversitriaAH_37, 
-                style: style_LinhaCircularUniversitriaAH_37,
+                source:jsonSource_LinhaCircularUniversitriaAH_38, 
+                style: style_LinhaCircularUniversitriaAH_38,
                 popuplayertitle: 'Linha Circular-Universitária AH',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaCircularUniversitriaAH_37.png" /> Linha Circular-Universitária AH'
+                title: '<img src="styles/legend/LinhaCircularUniversitriaAH_38.png" /> Linha Circular-Universitária AH'
             });
-var format_LinhaCircularUniversitriaH_38 = new ol.format.GeoJSON();
-var features_LinhaCircularUniversitriaH_38 = format_LinhaCircularUniversitriaH_38.readFeatures(json_LinhaCircularUniversitriaH_38, 
+var format_LinhaCircularUniversitriaH_39 = new ol.format.GeoJSON();
+var features_LinhaCircularUniversitriaH_39 = format_LinhaCircularUniversitriaH_39.readFeatures(json_LinhaCircularUniversitriaH_39, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaCircularUniversitriaH_38 = new ol.source.Vector({
+var jsonSource_LinhaCircularUniversitriaH_39 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaCircularUniversitriaH_38.addFeatures(features_LinhaCircularUniversitriaH_38);
-var lyr_LinhaCircularUniversitriaH_38 = new ol.layer.Vector({
+jsonSource_LinhaCircularUniversitriaH_39.addFeatures(features_LinhaCircularUniversitriaH_39);
+var lyr_LinhaCircularUniversitriaH_39 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaCircularUniversitriaH_38, 
-                style: style_LinhaCircularUniversitriaH_38,
+                source:jsonSource_LinhaCircularUniversitriaH_39, 
+                style: style_LinhaCircularUniversitriaH_39,
                 popuplayertitle: 'Linha Circular-Universitária H',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaCircularUniversitriaH_38.png" /> Linha Circular-Universitária H'
+                title: '<img src="styles/legend/LinhaCircularUniversitriaH_39.png" /> Linha Circular-Universitária H'
             });
-var format_LinhaCristoRei_39 = new ol.format.GeoJSON();
-var features_LinhaCristoRei_39 = format_LinhaCristoRei_39.readFeatures(json_LinhaCristoRei_39, 
+var format_LinhaCristoRei_40 = new ol.format.GeoJSON();
+var features_LinhaCristoRei_40 = format_LinhaCristoRei_40.readFeatures(json_LinhaCristoRei_40, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaCristoRei_39 = new ol.source.Vector({
+var jsonSource_LinhaCristoRei_40 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaCristoRei_39.addFeatures(features_LinhaCristoRei_39);
-var lyr_LinhaCristoRei_39 = new ol.layer.Vector({
+jsonSource_LinhaCristoRei_40.addFeatures(features_LinhaCristoRei_40);
+var lyr_LinhaCristoRei_40 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaCristoRei_39, 
-                style: style_LinhaCristoRei_39,
+                source:jsonSource_LinhaCristoRei_40, 
+                style: style_LinhaCristoRei_40,
                 popuplayertitle: 'Linha Cristo-Rei',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaCristoRei_39.png" /> Linha Cristo-Rei'
+                title: '<img src="styles/legend/LinhaCristoRei_40.png" /> Linha Cristo-Rei'
             });
-var format_LinhaHospitaisRodoviaria_40 = new ol.format.GeoJSON();
-var features_LinhaHospitaisRodoviaria_40 = format_LinhaHospitaisRodoviaria_40.readFeatures(json_LinhaHospitaisRodoviaria_40, 
+var format_LinhaHospitaisRodoviaria_41 = new ol.format.GeoJSON();
+var features_LinhaHospitaisRodoviaria_41 = format_LinhaHospitaisRodoviaria_41.readFeatures(json_LinhaHospitaisRodoviaria_41, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaHospitaisRodoviaria_40 = new ol.source.Vector({
+var jsonSource_LinhaHospitaisRodoviaria_41 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaHospitaisRodoviaria_40.addFeatures(features_LinhaHospitaisRodoviaria_40);
-var lyr_LinhaHospitaisRodoviaria_40 = new ol.layer.Vector({
+jsonSource_LinhaHospitaisRodoviaria_41.addFeatures(features_LinhaHospitaisRodoviaria_41);
+var lyr_LinhaHospitaisRodoviaria_41 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaHospitaisRodoviaria_40, 
-                style: style_LinhaHospitaisRodoviaria_40,
+                source:jsonSource_LinhaHospitaisRodoviaria_41, 
+                style: style_LinhaHospitaisRodoviaria_41,
                 popuplayertitle: 'Linha Hospitais - Rodoviaria',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaHospitaisRodoviaria_40.png" /> Linha Hospitais - Rodoviaria'
+                title: '<img src="styles/legend/LinhaHospitaisRodoviaria_41.png" /> Linha Hospitais - Rodoviaria'
             });
-var format_LinhaPinheiro_41 = new ol.format.GeoJSON();
-var features_LinhaPinheiro_41 = format_LinhaPinheiro_41.readFeatures(json_LinhaPinheiro_41, 
+var format_LinhaPinheiro_42 = new ol.format.GeoJSON();
+var features_LinhaPinheiro_42 = format_LinhaPinheiro_42.readFeatures(json_LinhaPinheiro_42, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaPinheiro_41 = new ol.source.Vector({
+var jsonSource_LinhaPinheiro_42 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaPinheiro_41.addFeatures(features_LinhaPinheiro_41);
-var lyr_LinhaPinheiro_41 = new ol.layer.Vector({
+jsonSource_LinhaPinheiro_42.addFeatures(features_LinhaPinheiro_42);
+var lyr_LinhaPinheiro_42 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaPinheiro_41, 
-                style: style_LinhaPinheiro_41,
+                source:jsonSource_LinhaPinheiro_42, 
+                style: style_LinhaPinheiro_42,
                 popuplayertitle: 'Linha Pinheirão',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaPinheiro_41.png" /> Linha Pinheirão'
+                title: '<img src="styles/legend/LinhaPinheiro_42.png" /> Linha Pinheirão'
             });
-var format_LinhaSadiaviaJdFloresta_42 = new ol.format.GeoJSON();
-var features_LinhaSadiaviaJdFloresta_42 = format_LinhaSadiaviaJdFloresta_42.readFeatures(json_LinhaSadiaviaJdFloresta_42, 
+var format_LinhaBRF_43 = new ol.format.GeoJSON();
+var features_LinhaBRF_43 = format_LinhaBRF_43.readFeatures(json_LinhaBRF_43, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaSadiaviaJdFloresta_42 = new ol.source.Vector({
+var jsonSource_LinhaBRF_43 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaSadiaviaJdFloresta_42.addFeatures(features_LinhaSadiaviaJdFloresta_42);
-var lyr_LinhaSadiaviaJdFloresta_42 = new ol.layer.Vector({
+jsonSource_LinhaBRF_43.addFeatures(features_LinhaBRF_43);
+var lyr_LinhaBRF_43 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaSadiaviaJdFloresta_42, 
-                style: style_LinhaSadiaviaJdFloresta_42,
+                source:jsonSource_LinhaBRF_43, 
+                style: style_LinhaBRF_43,
+                popuplayertitle: 'Linha BRF',
+                interactive: true,
+                title: '<img src="styles/legend/LinhaBRF_43.png" /> Linha BRF'
+            });
+var format_LinhaSadiaviaJdFloresta_44 = new ol.format.GeoJSON();
+var features_LinhaSadiaviaJdFloresta_44 = format_LinhaSadiaviaJdFloresta_44.readFeatures(json_LinhaSadiaviaJdFloresta_44, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_LinhaSadiaviaJdFloresta_44 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_LinhaSadiaviaJdFloresta_44.addFeatures(features_LinhaSadiaviaJdFloresta_44);
+var lyr_LinhaSadiaviaJdFloresta_44 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_LinhaSadiaviaJdFloresta_44, 
+                style: style_LinhaSadiaviaJdFloresta_44,
                 popuplayertitle: 'Linha Sadia via Jd Floresta',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaSadiaviaJdFloresta_42.png" /> Linha Sadia via Jd Floresta'
+                title: '<img src="styles/legend/LinhaSadiaviaJdFloresta_44.png" /> Linha Sadia via Jd Floresta'
             });
-var format_LinhaTerraNossa_43 = new ol.format.GeoJSON();
-var features_LinhaTerraNossa_43 = format_LinhaTerraNossa_43.readFeatures(json_LinhaTerraNossa_43, 
+var format_LinhaTerraNossa_45 = new ol.format.GeoJSON();
+var features_LinhaTerraNossa_45 = format_LinhaTerraNossa_45.readFeatures(json_LinhaTerraNossa_45, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaTerraNossa_43 = new ol.source.Vector({
+var jsonSource_LinhaTerraNossa_45 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaTerraNossa_43.addFeatures(features_LinhaTerraNossa_43);
-var lyr_LinhaTerraNossa_43 = new ol.layer.Vector({
+jsonSource_LinhaTerraNossa_45.addFeatures(features_LinhaTerraNossa_45);
+var lyr_LinhaTerraNossa_45 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaTerraNossa_43, 
-                style: style_LinhaTerraNossa_43,
+                source:jsonSource_LinhaTerraNossa_45, 
+                style: style_LinhaTerraNossa_45,
                 popuplayertitle: 'Linha Terra Nossa',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaTerraNossa_43.png" /> Linha Terra Nossa'
+                title: '<img src="styles/legend/LinhaTerraNossa_45.png" /> Linha Terra Nossa'
             });
-var format_LinhaUTFPRviaMarrecas_44 = new ol.format.GeoJSON();
-var features_LinhaUTFPRviaMarrecas_44 = format_LinhaUTFPRviaMarrecas_44.readFeatures(json_LinhaUTFPRviaMarrecas_44, 
+var format_LinhaUTFPRviaMarrecas_46 = new ol.format.GeoJSON();
+var features_LinhaUTFPRviaMarrecas_46 = format_LinhaUTFPRviaMarrecas_46.readFeatures(json_LinhaUTFPRviaMarrecas_46, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaUTFPRviaMarrecas_44 = new ol.source.Vector({
+var jsonSource_LinhaUTFPRviaMarrecas_46 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaUTFPRviaMarrecas_44.addFeatures(features_LinhaUTFPRviaMarrecas_44);
-var lyr_LinhaUTFPRviaMarrecas_44 = new ol.layer.Vector({
+jsonSource_LinhaUTFPRviaMarrecas_46.addFeatures(features_LinhaUTFPRviaMarrecas_46);
+var lyr_LinhaUTFPRviaMarrecas_46 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaUTFPRviaMarrecas_44, 
-                style: style_LinhaUTFPRviaMarrecas_44,
+                source:jsonSource_LinhaUTFPRviaMarrecas_46, 
+                style: style_LinhaUTFPRviaMarrecas_46,
                 popuplayertitle: 'Linha UTFPR via Marrecas',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaUTFPRviaMarrecas_44.png" /> Linha UTFPR via Marrecas'
+                title: '<img src="styles/legend/LinhaUTFPRviaMarrecas_46.png" /> Linha UTFPR via Marrecas'
             });
-var format_LinhaUTFPRviaSoMiguel_45 = new ol.format.GeoJSON();
-var features_LinhaUTFPRviaSoMiguel_45 = format_LinhaUTFPRviaSoMiguel_45.readFeatures(json_LinhaUTFPRviaSoMiguel_45, 
+var format_LinhaUTFPRviaSoMiguel_47 = new ol.format.GeoJSON();
+var features_LinhaUTFPRviaSoMiguel_47 = format_LinhaUTFPRviaSoMiguel_47.readFeatures(json_LinhaUTFPRviaSoMiguel_47, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaUTFPRviaSoMiguel_45 = new ol.source.Vector({
+var jsonSource_LinhaUTFPRviaSoMiguel_47 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaUTFPRviaSoMiguel_45.addFeatures(features_LinhaUTFPRviaSoMiguel_45);
-var lyr_LinhaUTFPRviaSoMiguel_45 = new ol.layer.Vector({
+jsonSource_LinhaUTFPRviaSoMiguel_47.addFeatures(features_LinhaUTFPRviaSoMiguel_47);
+var lyr_LinhaUTFPRviaSoMiguel_47 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaUTFPRviaSoMiguel_45, 
-                style: style_LinhaUTFPRviaSoMiguel_45,
+                source:jsonSource_LinhaUTFPRviaSoMiguel_47, 
+                style: style_LinhaUTFPRviaSoMiguel_47,
                 popuplayertitle: 'Linha UTFPR via São Miguel',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaUTFPRviaSoMiguel_45.png" /> Linha UTFPR via São Miguel'
+                title: '<img src="styles/legend/LinhaUTFPRviaSoMiguel_47.png" /> Linha UTFPR via São Miguel'
             });
-var format_LinhaConcen_46 = new ol.format.GeoJSON();
-var features_LinhaConcen_46 = format_LinhaConcen_46.readFeatures(json_LinhaConcen_46, 
+var format_LinhaConcen_48 = new ol.format.GeoJSON();
+var features_LinhaConcen_48 = format_LinhaConcen_48.readFeatures(json_LinhaConcen_48, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_LinhaConcen_46 = new ol.source.Vector({
+var jsonSource_LinhaConcen_48 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LinhaConcen_46.addFeatures(features_LinhaConcen_46);
-var lyr_LinhaConcen_46 = new ol.layer.Vector({
+jsonSource_LinhaConcen_48.addFeatures(features_LinhaConcen_48);
+var lyr_LinhaConcen_48 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LinhaConcen_46, 
-                style: style_LinhaConcen_46,
+                source:jsonSource_LinhaConcen_48, 
+                style: style_LinhaConcen_48,
                 popuplayertitle: 'Linha Concen',
                 interactive: true,
-                title: '<img src="styles/legend/LinhaConcen_46.png" /> Linha Concen'
+                title: '<img src="styles/legend/LinhaConcen_48.png" /> Linha Concen'
             });
-var format_TerminalUrbano_47 = new ol.format.GeoJSON();
-var features_TerminalUrbano_47 = format_TerminalUrbano_47.readFeatures(json_TerminalUrbano_47, 
+var format_TerminalUrbano_49 = new ol.format.GeoJSON();
+var features_TerminalUrbano_49 = format_TerminalUrbano_49.readFeatures(json_TerminalUrbano_49, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_TerminalUrbano_47 = new ol.source.Vector({
+var jsonSource_TerminalUrbano_49 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TerminalUrbano_47.addFeatures(features_TerminalUrbano_47);
-var lyr_TerminalUrbano_47 = new ol.layer.Vector({
+jsonSource_TerminalUrbano_49.addFeatures(features_TerminalUrbano_49);
+var lyr_TerminalUrbano_49 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TerminalUrbano_47, 
-                style: style_TerminalUrbano_47,
+                source:jsonSource_TerminalUrbano_49, 
+                style: style_TerminalUrbano_49,
                 popuplayertitle: 'Terminal Urbano',
                 interactive: true,
-                title: '<img src="styles/legend/TerminalUrbano_47.png" /> Terminal Urbano'
+                title: '<img src="styles/legend/TerminalUrbano_49.png" /> Terminal Urbano'
             });
 var group_PropostaNovoSistema = new ol.layer.Group({
-                                layers: [lyr_LinhaCircularNorteAH_35,lyr_LinhaCircularNorteH_36,lyr_LinhaCircularUniversitriaAH_37,lyr_LinhaCircularUniversitriaH_38,lyr_LinhaCristoRei_39,lyr_LinhaHospitaisRodoviaria_40,lyr_LinhaPinheiro_41,lyr_LinhaSadiaviaJdFloresta_42,lyr_LinhaTerraNossa_43,lyr_LinhaUTFPRviaMarrecas_44,lyr_LinhaUTFPRviaSoMiguel_45,lyr_LinhaConcen_46,],
+                                layers: [lyr_SistemaProposto_35,lyr_LinhaCircularNorteAH_36,lyr_LinhaCircularNorteH_37,lyr_LinhaCircularUniversitriaAH_38,lyr_LinhaCircularUniversitriaH_39,lyr_LinhaCristoRei_40,lyr_LinhaHospitaisRodoviaria_41,lyr_LinhaPinheiro_42,lyr_LinhaBRF_43,lyr_LinhaSadiaviaJdFloresta_44,lyr_LinhaTerraNossa_45,lyr_LinhaUTFPRviaMarrecas_46,lyr_LinhaUTFPRviaSoMiguel_47,lyr_LinhaConcen_48,],
                                 fold: 'close',
                                 title: 'Proposta Novo Sistema'});
 var group_TransportePblicoAtualDU = new ol.layer.Group({
@@ -729,8 +759,8 @@ var group_Municpio = new ol.layer.Group({
                                 fold: 'close',
                                 title: 'Município'});
 
-lyr_GoogleSatellite_0.setVisible(true);lyr_RRZEOpenStreetMapStandardHD_1.setVisible(true);lyr_PermetroUrbano_2.setVisible(true);lyr_DistritosRurais_3.setVisible(true);lyr_Bairros_4.setVisible(true);lyr_PGVs_5.setVisible(true);lyr_DensidadeDemogrfica_6.setVisible(true);lyr_Linha14Variao08Frequncia01viagem_7.setVisible(true);lyr_Linha14Variao07Frequncia01viagem_8.setVisible(true);lyr_Linha14Variao06Frequncia01viagem_9.setVisible(true);lyr_Linha14Variao05Frequncia01viagem_10.setVisible(true);lyr_Linha14Variao04Frequncia01viagem_11.setVisible(true);lyr_Linha14Variao03Frequncia01viagem_12.setVisible(true);lyr_Linha14Variao02Frequncia01viagem_13.setVisible(true);lyr_Linha14Variao01Frequncia01viagem_14.setVisible(true);lyr_Linha12Variao01Frequncia12viagens_15.setVisible(true);lyr_Linha12Variao02Frequncia02viagens_16.setVisible(true);lyr_Linha11Variao05Frequncia11viagens_17.setVisible(true);lyr_Linha11Variao01Frequncia06viagens_18.setVisible(true);lyr_Linha11Variao03Frequncia05viagens_19.setVisible(true);lyr_Linha11Variao02Frequncia01viagem_20.setVisible(true);lyr_Linha11Variao04Frequncia00viagens_21.setVisible(true);lyr_Linha10Variao01Frequncia15viagens_22.setVisible(true);lyr_Linha10Variao02Frequncia03viagens_23.setVisible(true);lyr_Linha10Variao04Frequncia01viagem_24.setVisible(true);lyr_Linha10Variao03Frequncia01viagem_25.setVisible(true);lyr_Linha09Variao01Frequncia18viagens_26.setVisible(true);lyr_Linha09Variao02Frequncia01viagem_27.setVisible(true);lyr_Linha04Variao02Frequncia17viagens_28.setVisible(true);lyr_Linha04Variao01Frequncia00viagens_29.setVisible(true);lyr_Linha02Variao01Frequncia05viagens_30.setVisible(true);lyr_Linha02Variao02Frequncia02viagens_31.setVisible(true);lyr_Linha01Variao01Frequncia13viagens_32.setVisible(true);lyr_Linha01Variao02Frequncia03viagens_33.setVisible(true);lyr_Linha01Variao03Frequncia01viagem_34.setVisible(true);lyr_LinhaCircularNorteAH_35.setVisible(true);lyr_LinhaCircularNorteH_36.setVisible(true);lyr_LinhaCircularUniversitriaAH_37.setVisible(true);lyr_LinhaCircularUniversitriaH_38.setVisible(true);lyr_LinhaCristoRei_39.setVisible(true);lyr_LinhaHospitaisRodoviaria_40.setVisible(true);lyr_LinhaPinheiro_41.setVisible(true);lyr_LinhaSadiaviaJdFloresta_42.setVisible(true);lyr_LinhaTerraNossa_43.setVisible(true);lyr_LinhaUTFPRviaMarrecas_44.setVisible(true);lyr_LinhaUTFPRviaSoMiguel_45.setVisible(true);lyr_LinhaConcen_46.setVisible(true);lyr_TerminalUrbano_47.setVisible(true);
-var layersList = [lyr_GoogleSatellite_0,lyr_RRZEOpenStreetMapStandardHD_1,group_Municpio,group_TransportePblicoAtualDU,group_PropostaNovoSistema,lyr_TerminalUrbano_47];
+lyr_GoogleSatellite_0.setVisible(true);lyr_RRZEOpenStreetMapStandardHD_1.setVisible(true);lyr_PermetroUrbano_2.setVisible(true);lyr_DistritosRurais_3.setVisible(true);lyr_Bairros_4.setVisible(true);lyr_PGVs_5.setVisible(true);lyr_DensidadeDemogrfica_6.setVisible(true);lyr_Linha14Variao08Frequncia01viagem_7.setVisible(true);lyr_Linha14Variao07Frequncia01viagem_8.setVisible(true);lyr_Linha14Variao06Frequncia01viagem_9.setVisible(true);lyr_Linha14Variao05Frequncia01viagem_10.setVisible(true);lyr_Linha14Variao04Frequncia01viagem_11.setVisible(true);lyr_Linha14Variao03Frequncia01viagem_12.setVisible(true);lyr_Linha14Variao02Frequncia01viagem_13.setVisible(true);lyr_Linha14Variao01Frequncia01viagem_14.setVisible(true);lyr_Linha12Variao01Frequncia12viagens_15.setVisible(true);lyr_Linha12Variao02Frequncia02viagens_16.setVisible(true);lyr_Linha11Variao05Frequncia11viagens_17.setVisible(true);lyr_Linha11Variao01Frequncia06viagens_18.setVisible(true);lyr_Linha11Variao03Frequncia05viagens_19.setVisible(true);lyr_Linha11Variao02Frequncia01viagem_20.setVisible(true);lyr_Linha11Variao04Frequncia00viagens_21.setVisible(true);lyr_Linha10Variao01Frequncia15viagens_22.setVisible(true);lyr_Linha10Variao02Frequncia03viagens_23.setVisible(true);lyr_Linha10Variao04Frequncia01viagem_24.setVisible(true);lyr_Linha10Variao03Frequncia01viagem_25.setVisible(true);lyr_Linha09Variao01Frequncia18viagens_26.setVisible(true);lyr_Linha09Variao02Frequncia01viagem_27.setVisible(true);lyr_Linha04Variao02Frequncia17viagens_28.setVisible(true);lyr_Linha04Variao01Frequncia00viagens_29.setVisible(true);lyr_Linha02Variao01Frequncia05viagens_30.setVisible(true);lyr_Linha02Variao02Frequncia02viagens_31.setVisible(true);lyr_Linha01Variao01Frequncia13viagens_32.setVisible(true);lyr_Linha01Variao02Frequncia03viagens_33.setVisible(true);lyr_Linha01Variao03Frequncia01viagem_34.setVisible(true);lyr_SistemaProposto_35.setVisible(true);lyr_LinhaCircularNorteAH_36.setVisible(true);lyr_LinhaCircularNorteH_37.setVisible(true);lyr_LinhaCircularUniversitriaAH_38.setVisible(true);lyr_LinhaCircularUniversitriaH_39.setVisible(true);lyr_LinhaCristoRei_40.setVisible(true);lyr_LinhaHospitaisRodoviaria_41.setVisible(true);lyr_LinhaPinheiro_42.setVisible(true);lyr_LinhaBRF_43.setVisible(true);lyr_LinhaSadiaviaJdFloresta_44.setVisible(true);lyr_LinhaTerraNossa_45.setVisible(true);lyr_LinhaUTFPRviaMarrecas_46.setVisible(true);lyr_LinhaUTFPRviaSoMiguel_47.setVisible(true);lyr_LinhaConcen_48.setVisible(true);lyr_TerminalUrbano_49.setVisible(true);
+var layersList = [lyr_GoogleSatellite_0,lyr_RRZEOpenStreetMapStandardHD_1,group_Municpio,group_TransportePblicoAtualDU,group_PropostaNovoSistema,lyr_TerminalUrbano_49];
 lyr_PermetroUrbano_2.set('fieldAliases', {'fid': 'fid', 'PERÍMETRO': 'PERÍMETRO', 'AREA_KM2': 'AREA_KM2', 'ÁREA M2': 'ÁREA M2', });
 lyr_DistritosRurais_3.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'DISTRITOS': 'DISTRITOS', 'ÁREA_KM2': 'ÁREA_KM2', });
 lyr_Bairros_4.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Nome': 'Nome', 'Codigo': 'Codigo', });
@@ -764,19 +794,21 @@ lyr_Linha02Variao02Frequncia02viagens_31.set('fieldAliases', {'fid': 'fid', 'id'
 lyr_Linha01Variao01Frequncia13viagens_32.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'CATEGORIA': 'CATEGORIA', 'NOME RUA': 'NOME RUA', 'NOME ANTER': 'NOME ANTER', 'STATUS': 'STATUS', 'Nº INICIO': 'Nº INICIO', 'Nº  FIM': 'Nº  FIM', 'BAIRRO DIR': 'BAIRRO DIR', 'BAIRRO ESQ': 'BAIRRO ESQ', 'CEP DIR': 'CEP DIR', 'CEP ESQ': 'CEP ESQ', 'DISTRITO': 'DISTRITO', 'SETOR': 'SETOR', 'PAVIMENTO': 'PAVIMENTO', 'REDE AGUA': 'REDE AGUA', 'REDE ESGOT': 'REDE ESGOT', 'LARGURA': 'LARGURA', 'layer': 'layer', 'path': 'path', 'SENTIDO': 'SENTIDO', 'instance': 'instance', 'offset': 'offset', 'LINHA': 'LINHA', 'PARTIDAS_DU': 'PARTIDAS_DU', 'PARTIDAS_SAB': 'PARTIDAS_SAB', 'PARTIDAS_DOM': 'PARTIDAS_DOM', });
 lyr_Linha01Variao02Frequncia03viagens_33.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'categoria': 'categoria', 'nome rua': 'nome rua', 'nome anter': 'nome anter', 'status': 'status', 'nº inicio': 'nº inicio', 'nº  fim': 'nº  fim', 'bairro dir': 'bairro dir', 'bairro esq': 'bairro esq', 'cep dir': 'cep dir', 'cep esq': 'cep esq', 'distrito': 'distrito', 'setor': 'setor', 'pavimento': 'pavimento', 'rede agua': 'rede agua', 'rede esgot': 'rede esgot', 'largura': 'largura', 'layer': 'layer', 'path': 'path', 'instance': 'instance', 'offset': 'offset', 'linha': 'linha', 'PARTIDAS_DU': 'PARTIDAS_DU', 'PARTIDAS_SAB': 'PARTIDAS_SAB', 'PARTIDAS_DOM': 'PARTIDAS_DOM', });
 lyr_Linha01Variao03Frequncia01viagem_34.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'categoria': 'categoria', 'nome rua': 'nome rua', 'nome anter': 'nome anter', 'status': 'status', 'nº inicio': 'nº inicio', 'nº  fim': 'nº  fim', 'bairro dir': 'bairro dir', 'bairro esq': 'bairro esq', 'cep dir': 'cep dir', 'cep esq': 'cep esq', 'distrito': 'distrito', 'setor': 'setor', 'pavimento': 'pavimento', 'rede agua': 'rede agua', 'rede esgot': 'rede esgot', 'largura': 'largura', 'layer': 'layer', 'path': 'path', 'instance': 'instance', 'offset': 'offset', 'linha': 'linha', 'PARTIDAS_DU': 'PARTIDAS_DU', 'PARTIDAS_SAB': 'PARTIDAS_SAB', 'PARTIDAS_DOM': 'PARTIDAS_DOM', });
-lyr_LinhaCircularNorteAH_35.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaCircularNorteH_36.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaCircularUniversitriaAH_37.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaCircularUniversitriaH_38.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaCristoRei_39.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaHospitaisRodoviaria_40.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaPinheiro_41.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaSadiaviaJdFloresta_42.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaTerraNossa_43.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaUTFPRviaMarrecas_44.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaUTFPRviaSoMiguel_45.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_LinhaConcen_46.set('fieldAliases', {'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
-lyr_TerminalUrbano_47.set('fieldAliases', {'fid': 'fid', 'id': 'id', });
+lyr_SistemaProposto_35.set('fieldAliases', {'fid': 'fid', 'camada_origem': 'camada_origem', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaCircularNorteAH_36.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaCircularNorteH_37.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaCircularUniversitriaAH_38.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaCircularUniversitriaH_39.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaCristoRei_40.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaHospitaisRodoviaria_41.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaPinheiro_42.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaBRF_43.set('fieldAliases', {'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaSadiaviaJdFloresta_44.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaTerraNossa_45.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaUTFPRviaMarrecas_46.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaUTFPRviaSoMiguel_47.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_LinhaConcen_48.set('fieldAliases', {'id': 'id', 'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', });
+lyr_TerminalUrbano_49.set('fieldAliases', {'fid': 'fid', 'id': 'id', });
 lyr_PermetroUrbano_2.set('fieldImages', {'fid': '', 'PERÍMETRO': 'TextEdit', 'AREA_KM2': 'TextEdit', 'ÁREA M2': 'TextEdit', });
 lyr_DistritosRurais_3.set('fieldImages', {'fid': '', 'id': 'TextEdit', 'DISTRITOS': 'TextEdit', 'ÁREA_KM2': 'TextEdit', });
 lyr_Bairros_4.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Nome': 'TextEdit', 'Codigo': 'TextEdit', });
@@ -810,19 +842,21 @@ lyr_Linha02Variao02Frequncia02viagens_31.set('fieldImages', {'fid': 'TextEdit', 
 lyr_Linha01Variao01Frequncia13viagens_32.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'CATEGORIA': 'TextEdit', 'NOME RUA': 'TextEdit', 'NOME ANTER': 'TextEdit', 'STATUS': 'TextEdit', 'Nº INICIO': 'TextEdit', 'Nº  FIM': 'TextEdit', 'BAIRRO DIR': 'TextEdit', 'BAIRRO ESQ': 'TextEdit', 'CEP DIR': 'TextEdit', 'CEP ESQ': 'TextEdit', 'DISTRITO': 'TextEdit', 'SETOR': 'TextEdit', 'PAVIMENTO': 'TextEdit', 'REDE AGUA': 'TextEdit', 'REDE ESGOT': 'TextEdit', 'LARGURA': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', 'SENTIDO': 'TextEdit', 'instance': 'TextEdit', 'offset': 'TextEdit', 'LINHA': 'TextEdit', 'PARTIDAS_DU': 'Range', 'PARTIDAS_SAB': 'Range', 'PARTIDAS_DOM': 'Range', });
 lyr_Linha01Variao02Frequncia03viagens_33.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'categoria': 'TextEdit', 'nome rua': 'TextEdit', 'nome anter': 'TextEdit', 'status': 'TextEdit', 'nº inicio': 'TextEdit', 'nº  fim': 'TextEdit', 'bairro dir': 'TextEdit', 'bairro esq': 'TextEdit', 'cep dir': 'TextEdit', 'cep esq': 'TextEdit', 'distrito': 'TextEdit', 'setor': 'TextEdit', 'pavimento': 'TextEdit', 'rede agua': 'TextEdit', 'rede esgot': 'TextEdit', 'largura': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', 'instance': 'TextEdit', 'offset': 'TextEdit', 'linha': 'TextEdit', 'PARTIDAS_DU': 'Range', 'PARTIDAS_SAB': 'Range', 'PARTIDAS_DOM': 'Range', });
 lyr_Linha01Variao03Frequncia01viagem_34.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'categoria': 'TextEdit', 'nome rua': 'TextEdit', 'nome anter': 'TextEdit', 'status': 'TextEdit', 'nº inicio': 'TextEdit', 'nº  fim': 'TextEdit', 'bairro dir': 'TextEdit', 'bairro esq': 'TextEdit', 'cep dir': 'TextEdit', 'cep esq': 'TextEdit', 'distrito': 'TextEdit', 'setor': 'TextEdit', 'pavimento': 'TextEdit', 'rede agua': 'TextEdit', 'rede esgot': 'TextEdit', 'largura': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', 'instance': 'TextEdit', 'offset': 'TextEdit', 'linha': 'TextEdit', 'PARTIDAS_DU': 'Range', 'PARTIDAS_SAB': 'Range', 'PARTIDAS_DOM': 'Range', });
-lyr_LinhaCircularNorteAH_35.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaCircularNorteH_36.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaCircularUniversitriaAH_37.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaCircularUniversitriaH_38.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaCristoRei_39.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaHospitaisRodoviaria_40.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaPinheiro_41.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaSadiaviaJdFloresta_42.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaTerraNossa_43.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaUTFPRviaMarrecas_44.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaUTFPRviaSoMiguel_45.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_LinhaConcen_46.set('fieldImages', {'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
-lyr_TerminalUrbano_47.set('fieldImages', {'fid': '', 'id': 'TextEdit', });
+lyr_SistemaProposto_35.set('fieldImages', {'fid': 'TextEdit', 'camada_origem': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaCircularNorteAH_36.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaCircularNorteH_37.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaCircularUniversitriaAH_38.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaCircularUniversitriaH_39.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaCristoRei_40.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaHospitaisRodoviaria_41.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaPinheiro_42.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaBRF_43.set('fieldImages', {'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaSadiaviaJdFloresta_44.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaTerraNossa_45.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaUTFPRviaMarrecas_46.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaUTFPRviaSoMiguel_47.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_LinhaConcen_48.set('fieldImages', {'id': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', });
+lyr_TerminalUrbano_49.set('fieldImages', {'fid': '', 'id': 'TextEdit', });
 lyr_PermetroUrbano_2.set('fieldLabels', {'fid': 'no label', 'PERÍMETRO': 'no label', 'AREA_KM2': 'no label', 'ÁREA M2': 'no label', });
 lyr_DistritosRurais_3.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'DISTRITOS': 'no label', 'ÁREA_KM2': 'no label', });
 lyr_Bairros_4.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Nome': 'no label', 'Codigo': 'no label', });
@@ -856,19 +890,21 @@ lyr_Linha02Variao02Frequncia02viagens_31.set('fieldLabels', {'fid': 'no label', 
 lyr_Linha01Variao01Frequncia13viagens_32.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'CATEGORIA': 'no label', 'NOME RUA': 'no label', 'NOME ANTER': 'no label', 'STATUS': 'no label', 'Nº INICIO': 'no label', 'Nº  FIM': 'no label', 'BAIRRO DIR': 'no label', 'BAIRRO ESQ': 'no label', 'CEP DIR': 'no label', 'CEP ESQ': 'no label', 'DISTRITO': 'no label', 'SETOR': 'no label', 'PAVIMENTO': 'no label', 'REDE AGUA': 'no label', 'REDE ESGOT': 'no label', 'LARGURA': 'no label', 'layer': 'no label', 'path': 'no label', 'SENTIDO': 'no label', 'instance': 'no label', 'offset': 'no label', 'LINHA': 'no label', 'PARTIDAS_DU': 'no label', 'PARTIDAS_SAB': 'no label', 'PARTIDAS_DOM': 'no label', });
 lyr_Linha01Variao02Frequncia03viagens_33.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'categoria': 'no label', 'nome rua': 'no label', 'nome anter': 'no label', 'status': 'no label', 'nº inicio': 'no label', 'nº  fim': 'no label', 'bairro dir': 'no label', 'bairro esq': 'no label', 'cep dir': 'no label', 'cep esq': 'no label', 'distrito': 'no label', 'setor': 'no label', 'pavimento': 'no label', 'rede agua': 'no label', 'rede esgot': 'no label', 'largura': 'no label', 'layer': 'no label', 'path': 'no label', 'instance': 'no label', 'offset': 'no label', 'linha': 'no label', 'PARTIDAS_DU': 'no label', 'PARTIDAS_SAB': 'no label', 'PARTIDAS_DOM': 'no label', });
 lyr_Linha01Variao03Frequncia01viagem_34.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'categoria': 'no label', 'nome rua': 'no label', 'nome anter': 'no label', 'status': 'no label', 'nº inicio': 'no label', 'nº  fim': 'no label', 'bairro dir': 'no label', 'bairro esq': 'no label', 'cep dir': 'no label', 'cep esq': 'no label', 'distrito': 'no label', 'setor': 'no label', 'pavimento': 'no label', 'rede agua': 'no label', 'rede esgot': 'no label', 'largura': 'no label', 'layer': 'no label', 'path': 'no label', 'instance': 'no label', 'offset': 'no label', 'linha': 'no label', 'PARTIDAS_DU': 'no label', 'PARTIDAS_SAB': 'no label', 'PARTIDAS_DOM': 'no label', });
-lyr_LinhaCircularNorteAH_35.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaCircularNorteH_36.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaCircularUniversitriaAH_37.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaCircularUniversitriaH_38.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaCristoRei_39.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaHospitaisRodoviaria_40.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaPinheiro_41.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaSadiaviaJdFloresta_42.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaTerraNossa_43.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaUTFPRviaMarrecas_44.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaUTFPRviaSoMiguel_45.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_LinhaConcen_46.set('fieldLabels', {'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
-lyr_TerminalUrbano_47.set('fieldLabels', {'fid': 'no label', 'id': 'no label', });
-lyr_TerminalUrbano_47.on('precompose', function(evt) {
+lyr_SistemaProposto_35.set('fieldLabels', {'fid': 'no label', 'camada_origem': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaCircularNorteAH_36.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaCircularNorteH_37.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaCircularUniversitriaAH_38.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaCircularUniversitriaH_39.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaCristoRei_40.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaHospitaisRodoviaria_41.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaPinheiro_42.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaBRF_43.set('fieldLabels', {'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaSadiaviaJdFloresta_44.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaTerraNossa_45.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaUTFPRviaMarrecas_46.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaUTFPRviaSoMiguel_47.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_LinhaConcen_48.set('fieldLabels', {'id': 'no label', 'Name': 'no label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', });
+lyr_TerminalUrbano_49.set('fieldLabels', {'fid': 'no label', 'id': 'no label', });
+lyr_TerminalUrbano_49.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
